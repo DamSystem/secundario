@@ -1,0 +1,19 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(77, 161, 109);
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #851944;
+    color: white;
+}
+
+p{
+    margin-left: 30px;
+    font-size: 20px;
+    text-align: justify;
+}

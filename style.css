@@ -1,11 +1,11 @@
 *{
-    margin: 3px;
+    margin: 5px;
     padding: 0px;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(77, 161, 109);
 }
 
@@ -63,7 +63,7 @@ a:hover{
 .h2{
     text-align: center;
 }
-p{
+.p2{
     text-align: justify;
     text-indent: 40px;
     
@@ -71,7 +71,7 @@ p{
 
 #not{
     display: column;
-    background: #ddd;
+    background: #b94611;
     margin: 30px 10px 30px 0px;
     width: 75%;
     float: right;
@@ -81,23 +81,16 @@ p{
 }
 
 .rodape{
-    letter-spacing: 0.5px;
-    background-color: green;
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
-    border-radius: 6px;
-}
-#p-rod1{
-    text-align: justify;
-    color: white;
-    font-size: 14px;
-    font-family: serif;
+    background-color: rgb(160, 118, 41);
+    display: block;
+    position: relative;
+    width: 99%;
+    clear: both;
+    text-align: center;
 }
 
-#p-rod2{
+#p3{
     text-align: center;
     color: white;
     font-size: 14px;
-    font-family: serif;
 }

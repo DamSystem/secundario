@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0px;
+    padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -11,34 +11,33 @@ body{
 
 .container{
     display: flex;
-    justify-content:justify;
+    justify-content: center;
     align-items: center;
-    height: 150px;
-    
+    height: 60px;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
     border-radius: 10px;
     gap: 10px;
 }
 
-#img{
-    height: 130px;
-    width: 80%;
-    border: solid 2px white;
+.img{
+    height: 150px;
+    width: 90%;
+    border: solid 1px white;
     border-radius: 50%;
 }
 
 .titulo{
     background-color: darkgreen;
-    align-items: justify;
-    justify-content: center;
     width: 85%;
-    height: auto;
+    height:150px;
     border: solid 2px green;
     border-radius:5px;
-    padding: 40px;
+    
     
 }
 
-#links{
+.links{
     margin-top: 10px;
     display: flex;
     gap: 10px;

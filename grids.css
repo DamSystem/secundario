@@ -4,51 +4,83 @@
 }
 
 .container{
-    border: 1px solid blue;
+    border: 0px solid blue;
     background-color: rgb(173, 199, 173);
     padding: 10px;
+    width: 98,5%;
     display: grid;
     gap: 5px;
     grid-template-areas:
-    "header header header header header"
-    "sidebar content content content content"
-    "footer footer footer footer footer";
+    "header header header"
+    "sidebar content content"
+    "footer footer footer";
 }
 
 .container div{
-    background-color: rgb(206, 193, 16);
-    border: 1px solid rgb(10, 14, 204);
-    padding: 20px;
+    background-color: rgb(16, 206, 149);
+    border: 0px solid rgb(10, 14, 204);
+    padding: 10px;
+    width: 98,5%;
 }
 
 #header{
     grid-area: header;
-    height: 50px;
-}
-
-img{
     display: flex;
-    width: 15%;
+    align-items: center;
+    justify-content: justify;
+    font-size: 20px;
 }
 
+#cabeçalho{
+   display: flex;
+   align-items: center;
+   justify-content: justify;
+   gap: 20px;
+   border: 0px;
+}
+
+.img{
+    height: 100px;
+    border-radius: 60px;
+}
+
+#cabeç{
+    font-size: 40px;
+    color: rgb(3, 3, 27);
+}
 
 
 #sidebar{
     grid-area: sidebar;
     height: 50vh;
-    font-size: 16px;
 }
 
 a{
     display: flex;
+    background-color: white;
     text-decoration: none;
-    
+    border: 1px solid rgb(88, 35, 5);
+    padding: 10px;
+    margin: 10px 30px 10px 30px;
 }
 
 #content{
     grid-area: content;
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+    color: blue;
+}
+
+.paragrafo{
+    font-size: 20px;
+    text-indent: 30px;
 }
 
 #footer{
     grid-area: footer;
+    text-align: center;
+    font-size: 12px;
 }

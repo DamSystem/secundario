@@ -17,13 +17,14 @@
 }
 
 .container div{
-    background-color: rgb(16, 206, 149);
     border: 0px solid rgb(10, 14, 204);
+    border-radius: 6px;
     padding: 10px;
     width: 98,5%;
 }
 
 #header{
+    background-color: rgb(16, 206, 149);
     grid-area: header;
     display: flex;
     align-items: center;
@@ -34,44 +35,74 @@
 #cabeçalho{
    display: flex;
    align-items: center;
-   justify-content: justify;
    gap: 20px;
    border: 0px;
 }
 
 .img{
+    align-items: center;
+    justify-content: justify;
     height: 100px;
     border-radius: 60px;
 }
 
-#cabeç{
+.cabeç{
     font-size: 40px;
     color: rgb(3, 3, 27);
 }
 
 
 #sidebar{
+    background-image: url("img/images.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
     grid-area: sidebar;
-    height: 50vh;
+    height: 70vh;
 }
 
 a{
     display: flex;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     text-decoration: none;
-    border: 1px solid rgb(88, 35, 5);
-    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px;
     margin: 10px 30px 10px 30px;
+    color: brown;
+}
+
+a.bot1:hover{
+    background-image: url("img/R Carvalho.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+}
+
+a.bot2:hover{
+    background-image: url("img/Html e Css3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
 }
 
 #content{
+    background-color: aquamarine;
     grid-area: content;
     text-align: justify;
+    height: 1000vh;
+    color: rgb(37, 15, 15);
 }
 
 h2{
     text-align: center;
-    color: blue;
+    color: rgb(18, 24, 3);
+    margin: 25px 0px 0px 0px;
 }
 
 .paragrafo{
@@ -80,6 +111,7 @@ h2{
 }
 
 #footer{
+    background-color: rgb(16, 206, 149);
     grid-area: footer;
     text-align: center;
     font-size: 12px;
